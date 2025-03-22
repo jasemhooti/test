@@ -2,7 +2,7 @@ from telegram import Update
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, ContextTypes
 
 # توکن ربات خود را اینجا قرار دهید
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "6414210268:AAEL-RZiABoMzS_QY922hOQnpXcam9OgiF0"
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("سلام! من یک ربات ساده هستم. می‌توانید با من چت کنید!")
